@@ -6,7 +6,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-
+    position: relative;
 }
 
 
@@ -165,6 +165,194 @@ margin-top: 17px;
 }
 
 
+
+.optimization {
+    min-height: 550px;
+    padding: 107px 0 102px 0;
+}
+.optimization .optimization_header {
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 420px;
+}
+.optimization .optimization_text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: justifyLeft;
+    font-family: "Roboto - Light";
+    font-weight: 300;
+    margin-top: 25px;
+    margin-left: 420px;
+}
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.optimization .optimization_img {
+    position: absolute;
+    top: -48px;
+    left: -270px;
+    z-index: -1;
+}
+
+
+
+.results {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/Results/resultsbg.jpg') center center / cover no-repeat;
+}
+.results .results_header {
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.results .waiting_yellowhr {
+    margin-top: 35px;
+}
+.results .results_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+}
+.results .results_wrapper .results_wrapper_item {
+    width: 204px;
+    min-height: 193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.results .results_wrapper .results_wrapper_item .results_wrapper_item_imgarea {
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results .results_wrapper .results_wrapper_item .results_wrapper_item_text {
+    margin-top: 25px;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.gift {
+    padding: 86px 0 87px 0;
+    min-height: 628px;
+    background-color: #efefef;  
+}
+.gift .gift_img img{
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift_text {
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
+.gift .main_btn {
+    margin-top: 52px;
+}
+
+
+
+.time {
+    padding: 82px 0 64px 0;
+    min-height: 515px;
+}
+.time .time_img img {
+    display: block;
+    margin: 0 auto;
+}
+.time .time_header {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.time .time_subheader {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.time .time_text {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+footer {
+    padding: 61px 0 69px 0;
+    min-height: 166px;
+    background-color: #1a1a1a;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_link {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.footer_item2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
 
 
 
